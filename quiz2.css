@@ -1,0 +1,18 @@
+html {}
+
+.first li{
+    padding:0.35em;
+}
+
+.middle li{
+    padding:0.35em;
+}
+
+.middle:hover li{
+    background-color: orange;
+    padding: 0.35em;
+}
+
+.third li{
+    padding: 0.35em;
+}
