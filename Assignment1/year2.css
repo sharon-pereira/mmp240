@@ -6,8 +6,8 @@
   width: 100%;
 }
 .card{
-  width: 48%;
-  margin: 1%;
+  width: 100%;
+  
 }
 .programs img{
   width: 100%;
@@ -22,6 +22,6 @@
 @media only screen and (min-width: 761px){
   .card{
     width: 22%;
-    margin: 1%;
+    /*margin: 1%;*/
   }
 }
