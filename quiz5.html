@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 5</title>
+    <link href="Quiz5.css" rel="stylesheet" type="text/css">
+    <style>
+        .container{
+            max-width: 1140px;
+            margin-left:auto;
+            margin-right:auto;
+            padding:16px;
+        }
+        .layout{
+            display:grid;
+            grid-template-rows: 300px 300px 300px 300px 300px 300px;
+            grid-row-gap: 16px;
+        }  
+        .grid-item{
+            background-color:aqua;
+        }
+
+        @media (min-width:768px){
+            .layout {
+            grid-template-rows: 300px 300px 300px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 16px;
+            grid-row-gap:16px;
+            }
+          }
+
+        }     
+      </style>
+
+  </head>
+  <body>
+      <div class="container">
+          <div class="layout">
+              <div class="grid-item">
+                  One
+              </div>
+              <div class="grid-item">
+                  Two
+              </div>
+              <div class="grid-item">
+                  Three
+              </div>
+              <div class="grid-item">
+                  Four
+              </div>
+              <div class="grid-item">
+                five
+            </div>
+            <div class="grid-item">
+                six
+            </div>
+          </div>
+    </div>
+  </body>
+</html>
