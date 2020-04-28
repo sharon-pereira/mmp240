@@ -159,12 +159,19 @@ header;{
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
+
   }
+
+  
+  
+
   .topnav a.icon {
     float: right;
     display: block;
   }
 }
+
+
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
@@ -187,8 +194,10 @@ header;{
   }
     .topnav input[type=text] {
   border: 1px solid #ccc;
+
+
 }
-   
+  
 }
 
 .card{
@@ -244,9 +253,10 @@ margin-bottom: 2%;
 .student-programs{
   display:grid;
   grid-template-columns: auto auto auto;
+  grid-template-columns:auto;
 
   grid-column-gap: 20px;
-  height: 200px;
+ 
   margin-bottom: 2%;
 
 text-align: center;
@@ -257,6 +267,7 @@ padding: 1%;
 
 .student-programs>div{
  border:1px solid #000;
+ height:200px;
 }
 
 .map{
@@ -267,3 +278,22 @@ padding: 1%;
   text-align:center;
   border:1px solid #000;
 }
+
+
+footer{
+  width:100%;
+  text-align: center;
+  height:40px;
+
+}
+
+footer p{
+  color:white;
+}
+@media screen and (min-width: 600px){ 
+
+  .student-programs{
+    display:grid;
+    grid-template-columns: auto auto auto;
+  }
+ }
