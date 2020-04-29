@@ -16,6 +16,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="cuny-design.js"></script>
+<script type="text/javascript" src="slideshow.js"></script>
+     
+
 
 <link rel="stylesheet" type="text/css" href="nav-style.css">
 
@@ -109,7 +112,22 @@
           <main class="page-main">
          <div class="grid-index">
 
-              <div class="student-work"> <h3> Student Work</h3></div>
+              <div class="student-work"> <h3> Student Work</h3> 
+
+                <div class="slideshow">
+              <a href="#" class="slide-back" onclick="slideshowBack(); return false;">
+                  <img src="slides/back.png" alt="back">
+                </a> 
+          <!--  Place the first image here  -->
+                <img src="slides/slide1.jpg" alt="" id="mypic">
+                <a href="#" class="slide-next" onclick="slideshowUp(); return false;">
+                <img src="slides/next.png" alt="next"></a> 
+            </div> <!-- #slide -->
+
+              </div>
+
+
+
 
               <div class="student-programs">
                   <div class="animation"> <h3> <a href="animation.html">Animation <br>Programs</a></h3></div> 
