@@ -244,7 +244,7 @@ border-top-left-radius: 10px;
 .student-work{
   display: grid;
  grid-template-columns: auto;
- height: 200px;
+ 
 border:1px solid #000;
 text-align: center;
 margin-bottom: 2%;
@@ -297,3 +297,26 @@ footer p{
     grid-template-columns: auto auto auto;
   }
  }
+
+
+ .slideshow{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mypic{
+    width:100%;
+}
+
+.slide-back{
+    position:absolute;
+    left:8px;
+}
+
+.slide-next{
+    position: absolute;
+    right:8px;
+}
+
