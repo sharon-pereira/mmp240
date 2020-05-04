@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 6</title>
+    <style>
+        .container{
+            max-width: 1140px;
+            margin-left:auto;
+            margin-right:auto;
+            padding:16px;
+        }
+        .layout{
+            display:grid;
+            grid: [header]10em [main]1fr [footer]3em / [main-content]3fr [sidebar]1fr;
+            grid-column-gap: 16px;
+            grid-row-gap:16px;
+        }  
+        .grid-item{
+            background-color:aqua;
+            padding:1em;
+        }
+        .header, .footer{
+            grid-column: 1 / span 2 
+        }
+        
+  
+      </style>
+
+  </head>
+  <body>
+      <div class="container">
+          <div class="layout">
+              <div class="grid-item header">
+                  header
+              </div>
+              <div class="grid-item main">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+                  
+              </div>
+              <div class="grid-item sidebar">
+                  sidebar
+              </div>
+            <div class="grid-item footer">
+                footer
+            </div>
+          </div>
+    </div>
+  </body>
+</html>
